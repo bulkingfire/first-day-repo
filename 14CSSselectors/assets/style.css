@@ -1,9 +1,11 @@
 /* TODO: Label selector type */
+/* The selector type that is found below is the universal selector (*)*/
 * {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   }
 
 /* TODO: Label selector type */
+/*  Looks like the following is a type selector since it defines the node name */
 body {
   background-color: lemonchiffon;
 }
@@ -23,11 +25,13 @@ figure {
 }
 
 /* TODO: Label selector type */
+/* The following is a class slector as the syntax with the period points to the class*/
 .highlighted-text {
   font-weight: bolder;
 }
 
 /* TODO: Label selector type */
+/* ID Selector if present below due to the # */
 #contact-section {
   background-color: #f0ead6;
 }
